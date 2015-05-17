@@ -1,0 +1,522 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa320\ql\qnatural
+
+\f0\b\fs48 \cf0 Meeting Log\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b0\fs24 \cf0   hello\
+<sia> hello Paul\
+<sia> is that you Paul?\
+ hi this is helen :)\
+ just logged in now\
+<yue5> hi Helen :)\
+ hi yue :)\
+ i'm just going to add an avatar\
+ it will force a reload\
+<yue5> sure\
+ interesting\
+ it didn't force a reload\
+ but i assigned it to this stage ...\
+ i'm going to force a reload\
+ hmmm\
+<helen> hi\
+<helen> does the default voice not work?\
+<helen> when i tried to test it in the upload, the test didn't work\
+<yue5> default option didn't work for me as well\
+<helen> does the voice test not work at all?\
+<helen> i'm trying it in the edit media screen now\
+<helen> i'm going to change the voice & hope a new one works ...\
+<helen> sorry folks another reload coming up\
+<helen> hello\
+<Stitch> hey\
+<helen> hey, great that the chat text is persisting!\
+<Stitch> oh i have silent voice ;)\
+<helen> well done\
+<Mater> good evening\
+<helen> but are you aware of the voice test not working?\
+<yue5> yes\
+<helen> ok good\
+<yue5> I made some changes in the last minute\
+<yue5> 8082 with python executable has trouble loading media\
+<helen> ok\
+<vicki > oh?\
+[helen] \{how was yoga, vi?\}\
+<yue5> by the way, my friend graduated from Jena University few days ago.\
+<helen> great, congratulations :)\
+<vicki > hmm i logged into 8082 but now i see the url is 8081\
+<vicki > yay awesome well done Jena\
+<helen> is your friend german?\
+ oh aha\
+<yue5> can't say\
+<Mater> oh now everyone seems to have disappeared?\
+<helen> an online friend?\
+[Mater] \{ oh nice av sia :)\}\
+<helen> no i have not disappeared ...\
+<Mater> hmm\
+<yue5> haha\
+<Mater> hmm still don't see you\
+<Mater> oh now i do\
+<Gaoxin> hi\
+<helen> it was a reload\
+<Mater> hi hi\
+<helen> but seems like something happened for you before that, vi?\
+ hahah\
+<Mater> yes\
+<helen> what happened?\
+<Mater> ther was a reload i only saw sia and me\
+<Mater> afterwards\
+<Mater> then gaoxin appeared\
+<Mater> and you at the same time\
+<helen> ok\
+<Mater> yue came in from the side\
+<helen> but before that - you said everyone disappeared?\
+<Mater> entry stage left :)\
+<helen> before the reload?\
+<Mater> i went over to see why i wasn't on 8082 and then saw the message \
+<Mater> hmm\
+<helen> your voice is so cute\
+<Mater> maybe  just me\
+<sia> hahahah very cute\
+<Mater> yes i need a little oil i think\
+<helen> hehe\
+<helen> so we are expecting paul for this meeting too\
+<yue5> 8082 does not upload media due to compilation error\
+<Mater> ok\
+<helen> ok\
+<helen> paul has done the debian upgrade on our server\
+<helen> so hopefully that means we can do an update on our 8083\
+<helen> and start to test v3.4 :)\
+<sia> yeah thats good news\
+<helen> yes\
+<helen> we can discuss that when paul arrives\
+<helen> meanwhile, how did you get on with presenting your proposal?\
+<helen> was my feedback helpful?\
+<sia> yes it was very helpful thanks\
+<helen> great\
+<Mater> cool\
+<sia> thank you for the feedback\
+[helen] \{:)\}\
+<helen> did anne also give you feedback?\
+<sia> we havent received feedback yet\
+ Hey hey\
+<Mater> hello\
+<helen> ok\
+<helen> hey, is that paul in the audience?\
+ Yes\
+<Gaoxin> hi paul\
+ I was making a quiet entrance\
+<helen> woohoo!!!!!\
+[yue5] \{)\}\
+<helen> not possible\
+<helen> you are today's hero!!!!\
+<helen> unfortunately the cheering audio isn't on this stage\
+<Mater> it was the wheeze that gave you away ;)\
+<helen> but please image it\
+<helen> imagine it\
+<helen> a crowd of UpStagers cheering & clapping & whistling!\
+<Mater> wooping with delight\
+<helen> people leaning out to shake your hand\
+ And for my final trick!!\
+<Mater> woop woop\
+<helen> oh my\
+<helen> so many people wanting to shake your hand!\
+ ... I'll ask again about classes.swf :/\
+<helen> ok\
+<helen> what about classes.swf?\
+ Is it meant to be in the repo?\
+<yue5> sure, I have the same issue with it on AUT server\
+<Mater> students skipping classes?\
+<yue5> I think it meant to compiled in the first place, and generated to the source folder.\
+ In which case, the build plan should be modified to actually do that\
+<yue5> yes I found similar issue on aut 8082.\
+<yue5> swf does not load\
+ It's not that it doesn't load... It's that it doesn't exist\
+ Oh and before I forget... Have y'all tested under jessie?\
+<yue5> jessie?\
+<helen> is jessie the version we have now on our server?\
+[helen] \{debian jessie\}\
+ Debian 8\
+<helen> ah - we have 7 now, yes?\
+<yue5> I haven't tried Debian Jessie yet\
+ No, I opted for Wheezy as I couldn't find record of testing being successful (Or conducted) under Jessie\
+<yue5> d.\
+<helen> good thinking paul\
+ Wheezy means we're good til 2018 though..\
+<helen> great\
+<Mater> xlnt\
+<sia> haha :)\
+ Should probably be conducting the rebuild under Jessie though...\
+<helen> ok\
+<helen> something for the students to start to look into then\
+<yue5> not entire sure about Flashplugin support though\
+<helen> so before we upgrade our 8083 to v3.4, this issue of the classes.swf needs to be resolved?\
+ Might be worth maintaining compatibility with CentOS 7 as well\
+<helen> yue - in the new UpStage we want to move away from flash anyway\
+ I assume QA *IS* 3.4?\
+<vicki> does that mean paul that your fina trick is the upgrade??\
+<yue5> Both are 3.4.... we can revert for the master branch\
+ Well it would be... If 'classes.swf' made an appearance\
+<vicki> ahh\
+<helen> so who needs to do that?\
+<helen> the students?\
+ I thought maybe there was an undocumented step in the process that involved building it?\
+ But that's what I needed to check \
+[helen] \{could be ... \}\
+ Devs?\
+<vicki> so yue for 8082 on the AUT server how will you resove class.swf?\
+<vicki> you all i mean :)\
+<yue5> It's not loading anything.\
+[helen] \{:(\}\
+<yue5> from upstage-admin commands, I need to move .swf files from somewhere else to the instance path to make it working.\
+<vicki> right\
+<helen> what changed between this instance & 8082?\
+<vicki> hmm so there is something critically wrong in the current build process \
+<helen> there must be a classes.swf for this one\
+<yue5> Ant build command generates the .swf files\
+<helen> ok\
+<helen> so something stopped it from doing that?\
+<yue5> the process is currently unknown. this is also why we want to discuss this issue with Anne first.\
+<helen> ok\
+<vicki> aha\
+<yue5> we scheduled Tuesday next week\
+<helen> great\
+<vicki> xlnt\
+<helen> so we can get an update on that at our next meeting\
+<sia> yeas we can do that...and thats a great idea that you mentioned in the feedback\
+<sia> about having meetings here every month\
+<helen> cool\
+<vicki> yes it would be great to achieve that\
+<helen> or more often ;)\
+<sia> yes :)\
+<sia> its very helpful\
+<helen> yes, for us too :)\
+ Figured it out\
+<vicki> cool\
+ One moment...\
+<helen> paul?\
+<vicki> yay paul\
+<helen> wow he is sparking today!\
+<vicki> raucous applaus\
+<sia> shshshsh\
+[vicki] \{ ooops\}\
+[helen] \{hard to be quiet when we're excited!\}\
+[helen] \{lucky there's no music on this stage\}\
+[vicki] \{ yes i might blow a gasket!\}\
+[helen] \{hehe\}\
+[vicki] \{ oooh the suspense how are you coping AUT team?\}\
+<yue5> x)\
+<yue5> We also looked into clickable link function.\
+<helen> ah, great!\
+<helen> possible?\
+<yue5> I have to rewrite the entire class.\
+<vicki> you can click links you just need to use three fingers\
+<helen> ah ok yue\
+<vicki> oh awesome \
+<helen> if it is a big job then it is not a priority\
+<helen> we have lived with it as it is for more than 10 years ...\
+<helen> it would be much more intuitive to be able to click them easily in the chat\
+<vicki> yes\
+<helen> but it isn't the end of the world if it stays how it is\
+<helen> your time will be better spent on other things i think\
+<yue5> The current ChatField we are using, is a single object.\
+<yue5> If we want to make single text clickable, we need to make the ChatBox as a container\
+ 8083\
+ is back online\
+<vicki> wahooooo\
+<helen> wow!\
+<vicki> woop woop\
+<helen> & it's 3.4??\
+<yue5> You are the hero, Paul.\
+<helen> he sure is!\
+<helen> more wild applause, foot stamping, fainting with excitement!\
+ Team - build.xml copies various files to ./temp/\
+ But because of where application.xml lives\
+ it tries to find them in ./upstage/client/src/temp\
+ SO\
+<yue5> temp must be in client folder as well\
+ Change import="temp/*" to: import="../../temp/*"\
+ in application.xml\
+ And you'll be sweet :)\
+[helen] \{:)\}\
+<yue5> will have a try\
+<yue5> Thank you so much\
+ No worries\
+<helen> hey where did that clapping come from?\
+<helen> is that the audience applause button?\
+ I have an applause button\
+<vicki> i ordered another bottle of bubbly from the bar!\
+<helen> so you're applauding yourself paul :)\
+<helen> great!\
+ Which I MAY have accidentally clicked on :p\
+<helen> lol\
+<vicki> ha ha ha ha\
+<helen> i would click on it if i could\
+<helen> as players we don't see that\
+<helen> maybe that's a mistake ...\
+ It's quite close to the chat box\
+<helen> players can't applaud!\
+<helen> is the applause button there all the time, paul?\
+<sia> sorry i disapeared for a while\
+<vicki> we can dance wildly with excitemenet\
+<sia> hahahah\
+<vicki> welcome back sia\
+<helen> it's all getting very exciting!\
+ Yeah it is\
+<sia> yes i was in the audience and there is the applause button is working\
+<vicki> we are celebrating the resolution of the classes.swf\
+<Gaoxin> yes you r\
+<helen> does it show all the time?\
+ Yep\
+<helen> or only if a player types /applause?\
+ All of the time\
+<vicki> oh aha\
+<helen> interesting\
+<helen> i just went to http://upstage.org.nz:8083/stages/test and there isn't an applause button there\
+<helen> & actually i can't type in the chat\
+<helen> & there's no player audience count at the top\
+ Hm...\
+<helen> well we can look at that later\
+ What's the policy port meant to be for 8083\
+<helen> um ... ?\
+ Can't remeber\
+ SWF port is always $WEB_PORT - 851\
+<helen> is it one of the 7000 ones?\
+<helen> 7230-7233?\
+ 3000 isn't it is?\
+<helen> lol\
+ currently. it's 3000\
+ ports should be also 3000\
+ yes\
+ But that was assuming 8081\
+<helen> in our faq on the website, for 8084, it says: the ports that need to be open are 8084, and 7230-7233. In some situations the ports 843 and 3000 may also need to be opened.\
+<vicki> oh oops\
+<vicki> yes 8083 need 7232 \
+ Okay\
+ Nevermind then\
+<helen> we need to update this info ...\
+<helen> it's a bit unclear\
+<helen> & maybe also this info should be in the installation manual?\
+ Nah\
+<helen> no?\
+ That's the scheme we use on the public server\
+ no?\
+<helen> ok\
+ But it doesn't have to be\
+<helen> but we need something in the installation manual about ports\
+ The ports can be whatever the admin wants them to be\
+<helen> ok\
+<helen> but the admin/installer needs to know that they have to set them\
+ They just need to be a number that the OS isn't already using\
+<yue5> need to check the availability for the port first.\
+ Yes, but we don't need to dictate that\
+ they could pick 666 and 888 if they want\
+<helen> no, but we need to note that they need to do it\
+ Yeah\
+<helen> is there already something about that in the manual?\
+ the policy, web and swf services need A port\
+ But they don't need specific ports\
+<yue5> port numbers seem reserved to 1023. If port is occupied, the installation shall stop.\
+<yue5> I personally use 8081-3 & 3000, so I think it is necessary to check the ports' availabilities before installation takes in place\
+<helen> ok, can that be added into the manual?\
+<yue5> we can add information about checking ports availability\
+<helen> great\
+<helen> i think it just needs to be flagged up, \
+<helen> so that anyone doing an install is aware of it\
+<yue5> yep\
+<helen> so what else do we need to discuss?\
+<helen> did the QA branch get made?\
+<vicki> next meeting time?\
+<yue5> yes, it is a mirror of master branch\
+<helen> great\
+<helen> & is it clear which one it is?\
+ Yep\
+ Aptly named 'QA'\
+<yue5> it will be updated with 3.4.x to specify the versioning\
+<helen> ok\
+<helen> i'm just looking at the releases on github\
+<helen> v3.3. is still the latest\
+<helen> where should i see QA?\
+ I'll endevour to keep an eye on the QA branch and update when it's pushed to\
+[helen] \{sorry for asking basic questions!\}\
+ Just remember that it's for 'Hopefully stable' code\
+[vicki] \{ ;)\}\
+ Helen - Under 'branches'\
+<helen> ah - found it :)\
+<helen> super!\
+<helen> haha - shouldn't it be called HS then not QA?\
+<yue5> We can name it HopefullyStable?\
+<helen> hehe\
+<vicki> haha\
+ development should be done in feature branches, merged into a development branch and then the development branch pushed to QA\
+<helen> we only have QA & master ...\
+<vicki> master stands for definitley almost stable\
+<helen> lol\
+ (Much like how Debian has 'unstable', 'testing' & 'stable')\
+<helen> Mostly And Sometimes Totally Excellently Reliable?\
+ not all branches need to be on GitHub\
+<helen> ah ok\
+<vicki> ha ha yeah\
+ In fact, that's the idea of DVCS\
+<helen> DVCS?\
+ such as git or mercurial\
+<vicki> ah workshop space\
+ Distributed Version Control System\
+<helen> ahah\
+<helen> all these BAs give me a HA ...\
+[helen] \{Bloody Acronyms\}\
+[helen] \{Head Ache\}\
+ Was about to make a joke regarding Bachelor of Arts...\
+<helen> haha\
+<vicki> ha ha \
+ But then some people might get offended\
+[yue5] \{)\}\
+<helen> yes, watchit, i'm a BA ...\
+ Oh!\
+<helen> and a MA...\
+<yue5> PhD?\
+ In that case... I'll have fries and a coke :p\
+<helen> nah\
+<helen> lol\
+ *I jest*\
+<helen> haha\
+<helen> aren't you a BSc?\
+<helen> no\
+<helen> what is it ... BCIS?\
+<vicki> bcis\
+<yue5> I am\
+<vicki> yay yue!\
+<helen> Brilliant, Clever, Independent Student?\
+<Gaoxin> Bachelor of Computer and Information Sciences\
+<vicki> graduated! \
+ BCIS, CMTE, RHCE\
+<helen> Brainy, Cute, Inspirational Serveradmin\
+<Gaoxin> haha\
+<sia> thats the one\
+<vicki> oh you're alphabet soup paul\
+<yue5> hmmm is there anything else to be discussed???\
+<helen> Clever Man That Excels\
+<helen> oh yes our meeting\
+<helen> oops\
+<sia> lol\
+<helen> sorry i got carried away\
+<Gaoxin> bingo, you win a chance to be our lecturer\
+<helen> hehe\
+<sia> haha\
+<helen> while paul is here, do you have any questions for him?\
+<vicki> right honorable coding extradionaire\
+<yue5> I will try to update the application.xml once I get exam done\
+[helen] \{excellent one vi!\}\
+ I'm sure your lecturers would HATE me actually\
+<vicki> great\
+<helen> please remember, this is much more important than your exams\
+<vicki> lol\
+<Gaoxin> wow\
+<helen> it's true\
+<yue5> everything is important :p\
+<helen> that's true too\
+<helen> when are your exams?\
+<yue5> on Monday next week. Need to memorize 50-100 pages..\
+[vicki] \{ we should let them go and study hen\}\
+<helen> wow\
+<helen> yes\
+<vicki> thanks heaps \
+<vicki> thid was a most awesome meeting\
+<helen> & will you disappear after your exams or will we see you at the next meeting?\
+<yue5> same time?\
+<helen> can be \
+ I MAY not be available next week\
+<helen> next week or shall we leave it 2 weeks?\
+ But I'll let you know\
+<helen> exam recovery time?\
+<helen> 13th may?\
+<vicki> maybe also gve yue some time to recover before the next one\
+<helen> will yue, charlotte & goaxin still be with us on 13th may?\
+<vicki> oh yes\
+<vicki> surely\
+<yue5> we will\
+<helen> phew\
+<vicki> yay!!\
+<helen> ok, is that good to meet in 2 weeks then?\
+[vicki] \{ it is better for me\}\
+<yue5> yeah, I think 13 would be better\
+<helen> this was an exceptionally productive week\
+<yue5> lol\
+<helen> we need recovery time\
+<helen> paul, is the 13th good for you?\
+<vicki> bloody clever industrious students\
+<helen> that's it, vi!\
+<sia> true..he's a machine\
+<sia> yue\
+<sia> always at it\
+<helen> sia, you know we will expect the same from you & william\
+[helen] \{;)\}\
+ Yep\
+<vicki> ha ha bwah ha ha \
+<sia> ahaha yes i know..which is why im glad yue will be here for a while longer\
+<sia> still learning from these guys\
+<yue5> welcome to the big family :P\
+<helen> perhaps we should keep yue for another few years\
+<Gaoxin> good ideas\
+<sia> ahahahha \
+<helen> ask anne to fail him so that he has to repeat?\
+<sia> ahahahah good idea\
+<helen> ok, i'll see what i can do\
+<Gaoxin> so helpful\
+<vicki> it will never work hen\
+<helen> we just have to give him very bad feedback\
+<helen> in our feedback forms\
+<helen> say that he really needs to repeat the year\
+<helen> there's no way he should be let out into the real world yet\
+<helen> UpStage is safer\
+<yue5> Hopefully uni gives me visa for an extra year\
+<Gaoxin> and my son will have a group with yue for upstage\
+<helen> great\
+<vicki> ha ha too right\
+<helen> keep it in the family!\
+<vicki> we are a big intergenerational family ;)\
+<helen> ok then it's decided, yue stays.\
+<Gaoxin> at the time, I think it is upstage 2040\
+<helen> for sure! UpStage 3000!\
+<Gaoxin> I though yue's son will be upstage 3000\
+<helen> lol\
+<helen> maybe!\
+<Gaoxin> with yue\
+<helen> true cyborgs\
+<yue5> lol blessed with long life...\
+<vicki> Yue and upstage will be the singularity\
+<helen> virtualisation\
+<helen> YuepStage\
+<Gaoxin> lol\
+<helen> ok folks we will get sore cheeks if we carry on like this\
+<sia> hahah yes\
+[vicki] \{ :)\}\
+<helen> it's been a great meeting, thanks everyone for all your work :)\
+<vicki> yes thanks\
+<helen> no doubt vicki & i will start giving you new bugs and things now that we have v3.4 on our server ...\
+<sia> yes thank you for your time and help :)\
+<sia> ahahah\
+<sia> it was a good meeting\
+<helen> & thanks paul for the upgrades!!!\
+ No worries\
+<helen> i will save the log & send it out\
+<sia> *applaus\
+ Happy hacking :)\
+<helen> next meeting is same time on wed 13th may\
+<helen> 8pm nz, 10am munich\
+<sia> ok\
+<helen> good luck for your exams!\
+ thnks bye bye and good luck for exams yue\
+<vicki> thnks bye bye and good luck for exams yue\
+ Thanks Paul. Keep in touch\
+<vicki> thanks paul\
+<vicki> for wheezy and wizardry\
+<helen> bye everyone!\
+<sia> have a good day helen\
+<Gaoxin> bye all, thank for the great meeting\
+<helen> thanks; good sleeps to you all\
+<sia> good night new zealanders:) \
+}
