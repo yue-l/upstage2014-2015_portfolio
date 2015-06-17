@@ -5,22 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>UpStage | Portfolio 2015</title>
     <link href='http://fonts.googleapis.com/css?family=Exo:900' rel='stylesheet' type='text/css'>
-
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
     <!-- Add custom CSS here -->
     <link href="assets/css/sb-admin.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
   </head>
-
   <body>
-
     <div id="wrapper">
-
       <!-- Sidebar -->
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -96,9 +90,7 @@
 
         </div><!-- /.navbar-collapse -->
       </nav>
-
       <div id="page-wrapper">
-
         <div class="row">
           <div class="col-lg-12">
             <h1>Activities</h1>
@@ -107,57 +99,86 @@
               <li><i class="icon-desktop"></i> Activities</li>
               <li><i class="icon-code"></i> V3 Maintenance</li>
             </ol>
-
-            <h2 id="technical">GitHub</h2>
-			<p> To record which bugs were being fixed we commented on the GitHub issue list based on what we had done. Although as part of our plan the team was meant to complete three bugs a week, only two bugs were actually fixed overall.</p>
+            <h2 id="technical">UpStage Software Release Status</h2>
+            <p>
+              This section includes The recent releases from July 2014 to June 2015. For all the product release details, please refer to
+              <a href="https://github.com/AUTUpStageTeam/UpStage/releases" target="_blank">
+                AUT UpStage Repository Releases</a>
+            </p>
+            <br/>
+            <br/>
             <div class="panel panel-success">
               <div class="panel-heading">
-                <h3 class="panel-title">GitHub Comments</h3>
+                <h3 class="panel-title">UpStage Releases in Semester 1 2015</h3>
               </div>
-              <p>These issues are for bugs fixed of features added during our development in Semester 2 of 2014.</p>
+              <div id="closed-issues" class="carousel slide">
+                <div class="panel-body">
+                  <div id="closed-issues" class="carousel slide">
+                    <img src="Documents/Development/latestRelease.png" >
+                    <img src="Documents/Development/prerelease.png" >
+                  </div>
+                 </div>
+              </div>
+            </div>
+          <h2 id="technical">UpStage Existing Issues Status</h2>
+          <p>
+            This section only contains Bug fixing work done from July 2014 to June 2015. For all the details, please refer to
+            <a href="https://github.com/AUTUpStageTeam/UpStage/issues" target="_blank">
+              AUT UpStage Repository Issue List
+            </a>
+          </p>
+          <br/>
+          <br/>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">UpStage Repository Issues Closed in Semester 1 2015</h3>
+            </div>
+            <div id="closed-issues" class="carousel slide">
+              <div class="panel-body">
                 <div id="closed-issues" class="carousel slide">
-                 <div class="panel-body">
-                <div id="closed-issues" class="carousel slide">
-                      <img src="Documents/Development/ClosedIssues2.png" >
-                      <div class="carousel-caption">
-                     </div>
+                  <img src="Documents/Development/ClosedIssuesSem12015.png" >
                 </div>
                </div>
             </div>
-			</div>
+    			</div>
+          <p>
+            Although as part of our plan the team was meant to complete three bugs a week, only two bugs were actually fixed overall.
+          </p>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">UpStage Repository Issues Closed in Semester 1 2015</h3>
+            </div>
+            <div id="closed-issues" class="carousel slide">
+              <div class="panel-body">
+                <!-- <div id="closed-issues" class="carousel slide"> -->
+                  <img src="Documents/Development/ClosedIssues2.png" >
+                <!-- </div> -->
+               </div>
+            </div>
+    			</div>
 
 			<div class="panel panel-info">
-              <div class="panel-heading">
-                <h3 class="panel-title">Issues Remaining under v3.0 Milestone on GitHub</h3>
-              </div>
-              <div class="panel-body">
-              <p>These issues are still open as they have proven extremely difficult in finding the cause of. Most of them are not repeatable in NZ by the AUT team so they can't even be worked on by us. Enhancements to Version 3 are not to be carried out by the AUT UpStage team as the main focus for the team is the research, design and development of the new software.</p>
-                <div id="issues" class="carousel slide">
-                 <div class="panel-body">
-                <div id="issues" class="carousel slide">
-                    <div class="carousel-inner">
-                      <img src="Documents/Development/Version3Issues.png">
-                      <div class="carousel-caption">
-                     </div>
-                   </div>
-                </div>
-               </div>
-                </div>
-              </div>
+        <div class="panel-heading">
+          <h3 class="panel-title">High Priority Tickets Caused by Synchronization Issue</h3>
+        </div>
+        <div class="panel-body">
+        <p>
+          These high priority issues remain open as they cannot be fixed due to the design of current software. According to the predecessor teams, these issues are not repeatable by AUT team. This statement has been proven false. All the identified issues indicate faults from the media synchronization mechanism within the current implementation. We produced a full detailed analysis to demonstrate how to reinstate these issues.
+        </p>
+        <a href="Documents/Deliverables/Why UpStage Server-end Should Enforce Media Synchronization.pdf" role="button" class="btn btn-lg btn-success">View Position Paper regarding to UpStage Synchronization</a>
+        <div id="issues" class="carousel slide">
+          <div class="panel-body">
+            <!-- <div id="issues" class="carousel slide">
+              <div class="carousel-inner"> -->
+                <img src="Documents/Development/synchronization issues.png">
+                <!-- <div class="carousel-caption">
+               </div> -->
+             <!-- </div> -->
             </div>
-
-			<h2 id="technical">Reflection</h2>
-			<p> On reflection we discovered that the team members were struggling to fully complete a bug fix in a week. Therefore we took this into consideration when devising our new plan and decided to have two bug fixes done fortnightly. We have contacted our client in order to determine which are the most immediately important bugs to fix which we plan to start with. We also plan to have a uniform way to communicate effectively to our clients and future developers what we discovered in the process, as well as the progress on the fix we made</p>
-
-
-
           </div>
-        </div><!-- /.row -->
-
-      </div><!-- /#page-wrapper -->
-
-    </div><!-- /#wrapper -->
-
+        </div>
+      </div>
+      </div>
     <!-- Bootstrap core JavaScript -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
