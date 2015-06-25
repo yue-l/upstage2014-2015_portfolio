@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>UpStage | Portfolio 2015</title>
+    <link href="http://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  </head>
+
+  <body>
+  <div id="wrapper">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	  <span class="sr-only">Toggle navigation</span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="index.html">UpStage 2015</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+	<ul class="nav navbar-nav side-nav">
+	  <li>
+	    <a href="index.html"><i class="icon-home"></i> Overview</a>
+	  </li>
+	  <li class="active">
+	    <a href="planning.html"><i class="icon-bar-chart"></i> Planning</a>
+	  </li>
+	  <li class="dropdown">
+	    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+	      <i class="icon-comments"></i> Communication <b class="caret"></b></a>
+	    <ul class="dropdown-menu">
+	      <li><a href="communication-team.html"><i class="icon-group"></i>Team</a></li>
+	      <li><a href="communication-supervisor.html"><i class="icon-user"></i> Supervisor</a></li>
+	      <li><a href="communication-community.html"><i class="icon-group"></i> Client & Community</a></li>
+	    </ul>
+	  </li>
+	  <li><a href="rationale.html"><i class="icon-edit"></i> Rationale</a></li>
+	  <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-desktop"></i> Activities <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="development-technical.html"><i class="icon-code"></i> V3 Maintenance</a></li>
+		  <!-- <li><a href="summer-research.html"><i class="icon-code"></i> Summer Holiday Work</a></li> -->
+		  <li><a href="development-collaboration.html"><i class="icon-sitemap"></i> Proof of Concept</a></li>
+		</ul>
+	  </li>
+	  <li><a href="quality-assurance.html"><i class="icon-check"></i> Quality Assurance</a></li>
+	  <li><a href="deliverables.html"><i class="icon-file-alt"></i> Deliverables</a></li>
+	  <!-- <li><a href="appendix.html"><i class="icon-info"></i> Reflection</a></li> -->
+	</ul>
+	<ul class="nav navbar-nav navbar-right navbar-user">
+	  <li class="dropdown messages-dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i> Contact Team <b class="caret"></b></a>
+	    <ul class="dropdown-menu">
+	      <li class="dropdown-header">AUT UpStage Team 2015</li>
+	      <li class="message-preview"> <a href="mailto:pdy2956@aut.ac.nz"> <span class="avatar"><img src="assets/img/Charlotte.jpg"></span> <span class="name">Charlotte Paterson</span> <span class="message">pdy2956@aut.ac.nz</span> </a> </li>
+	      <li class="divider"></li>
+	      <li class="message-preview"> <a href="mailto:pbq6275@aut.ac.nz"> <span class="avatar"><img src="assets/img/Yue.jpg"></span> <span class="name">Yue Li</span> <span class="message">pbq6275@aut.ac.nz</span> </a> </li>
+	      <li class="divider"></li>
+	      <li class="message-preview"> <a href="mailto:gfx0590@aut.ac.nz"> <span class="avatar"><img src="assets/img/Gaoxin.jpg"></span> <span class="name">Gaoxin Huang</span> <span class="message">gfx0590@aut.ac.nz</span> </a> </li>
+	    </ul>
+	  </li>
+	</ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <div id="page-wrapper">
+      <div class="row">
+	<div class="col-lg-12">
+	  <h1>Project Planning</h1>
+	  <ol class="breadcrumb">
+	    <li><a href="index.html"><i class="icon-home"></i> UpStage</a></li>
+	    <li><i class="icon-bar-chart"></i> Planning</li>
+	  </ol>
+	  <h2>Original Proposals</h2>
+	  <p>These proposal documents contain the initial plans for our time with UpStage.</p>
+	  <p>As UpStage is an ongoing project, new team members join the project every semester, as a result, we have multiple proposals.</p>
+	  <div class="panel panel-success">
+	    <div class="panel-heading">
+	      <h3 class="panel-title">Proposal Documents</h3>
+	    </div>
+	    <div class="panel-body">
+	      <div class="table-responsive">
+		<table class="table table-hover">
+		  <thead>
+		    <tr>
+		      <th>Creator</th>
+		      <th>Semester</th>
+					  <th>Version</th>
+		      <th>Document</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>Mihkail, James Williams and Takuma Sato</td>
+		      <td>Semester 1, 2014</td>
+					  <td>5</td>
+		      <td><a href="Documents/Planning/James, Xiangyu, Takuma Proposal v5.docx" role="button" class="btn btn-success">View Document</a></td>
+		    </tr>
+		    <tr>
+		      <td>Charlotte Paterson, Yue Li and Gaoxin Huang</td>
+		      <td>Semester 2, 2014</td>
+					  <td>1.2</td>
+		      <td><a href="Documents/Planning/Charlotte, Gaoxin, Yue Proposal 1_2.docx" role="button" class="btn btn-success">View Document</a></td>
+		    </tr>
+		    <tr>
+		      <td>Charlotte Paterson, Yue Li and Gaoxin Huang</td>
+		      <td>Semester 2, 2014</td>
+					  <td>1.3</td>
+		      <td><a href="Documents/Planning/Charlotte, Gaoxin, Yue Proposal 1_3.docx" role="button" class="btn btn-success">View Document</a></td>
+		    </tr>
+		    <tr>
+		      <td>Siatua Uili and William Stokes</td>
+		      <td>Semester 1, 2015</td>
+					  <td>1</td>
+		      <td><a href="Documents/Planning/William_Siatua_Proposal_2015.docx" role="button" class="btn btn-success">View Document</a></td>
+		    </tr>
+		    <tr>
+		      <td>Siatua Uili and William Stokes</td>
+		      <td>Semester 1, 2015</td>
+					  <td>2</td>
+		      <td><a href="Documents/Planning/William_Siatua_Proposal_2015v2.docx" role="button" class="btn btn-success">View Document</a></td>
+		    </tr>
+		    <tr>
+		      <td>Siatua Uili and William Stokes</td>
+		      <td>Semester 1, 2015</td>
+					  <td>3</td>
+		      <td><a href="Documents/Planning/William_Siatua_Proposal_2015v3.docx" role="button" class="btn btn-success">View Document</a></td>
+		    </tr>
+		  </tbody>
+		</table>
+	      </div>
+	    </div>
+	  </div>
+
+		  <div class="panel panel-info">
+	<div class="panel-heading">
+	  <h3 class="panel-title">Design Science Phases</h3>
+	</div>
+	  <div class="panel-body">
+	    <p>In the second semester of 2014 we followed the research process of Design Science as illustrated by the below image which shows the phases we successfully completed and those which we partially completed.</p>
+	       Image from <a href="http://www.wcdsc.net/overview/images/dsplanbig.jpg">http://www.wcdsc.net/overview/images/dsplanbig.jpg</a>
+	      <div id="closed-issues" class="carousel slide">
+		<div class="panel-body">
+		  <div id="closed-issues" class="carousel slide">
+		    <img src="Documents/Development/kanban.png" >
+		    <div class="carousel-caption">
+		    </div>
+		  </div>
+		</div>
+	      </div>
+	  </div>
+      </div>
+
+	  <h2>Planning for UpStage - Semester 2, 2014</h2>
+	  <p>In the beginning of semester 2, we coordinated work with developers from the other team. We had a blur idea of our future tasks.
+	    We came up with a research plan with limited details.
+	    We planned our work into 2 parallel processes:
+	    We worked on Version 3 maintenance on a regular basis. Meanwhile, we divided our research into 3 areas:
+	    Flash, Text-To-Speech and Video Streaming technologies.</p>
+	  <a href="Documents/Planning/DetailedPlan_ver3.xlsx" role="button" class="btn btn-success">View Plan Document</a> <br>
+	  </br>
+
+	  <h2>Co-Ordinating Team Resources</h2>
+	  <p>In order to take advantage of the large group we had, we delegated task based on pairs that included one new member and one existing member in the group. We assigned version 3 maintenance as well as a research area to those pairs.</p>
+	  <div class="panel panel-success">
+	    <div class="panel-heading">
+	      <h3 class="panel-title">Semester Two 2014 Plan with Team Delegations</h3>
+	    </div>
+	    <div class="panel-body">
+
+
+		  <div class="item active"> <img src="Documents/Planning/detailed-plan-s2.PNG" alt="plan">
+
+		  </div>
+
+	    </div>
+	  </div>
+	  <h2>Team Roles - Semester 2, 2014</h2>
+	  <p></p>
+	  <p><a href="Documents/Planning/Team Roles Semester 2, 2014.docx" role="button" class="btn btn-success">View Document</a></p>
+	  <h2>Team Roles - Semester 1, 2015</h2>
+	  <p></p>
+	  <p><a href="Documents/Planning/Team Roles Semester 1, 2015.docx" role="button" class="btn btn-success">View Document</a></p>
+	  <h2>Communication Plan</h2>
+	  <p></p>
+	  <p><a href="Documents/Planning/Communication Plan.doc" role="button" class="btn btn-success">View Document</a></p>
+	 <h2>Planning for UpStage- Semester 1, 2015</h2>
+	  <p></p>
+	  <p>We had a better understanding on what we need to achieve. We continued working in pairs, in parallel processes. We came up with a more detailed plan.
+	    Team members will have more opportunities to work with different team members. We also will mentor our new members to guarantee new members can have sufficient knowledge of UpStage project.</p>
+	  <p></p>
+	  <p>Version 1</p>
+	  <a href="Documents/Planning/upstage2015sem1_V1.mpp" role="button" class="btn btn-success">View Plan Document</a>
+	  <p>Version 2</p>
+	  <a href="Documents/Planning/upstage2015sem1_V2.mpp" role="button" class="btn btn-success">View Plan Document</a>
+	  <p>Version 3</p>
+	  <a href="Documents/Planning/upstage2015sem1_V3.mpp" role="button" class="btn btn-success">View Plan Document</a>
+	  <br/>
+	  <br/>
+		  <div class="panel panel-success">
+	    <div class="panel-heading">
+	      <h3 class="panel-title">Semester One 2015 Plan</h3>
+	    </div>
+	    <div class="panel-body">
+
+
+		  <div class="item active"> <img src="Documents/Planning/detailed Plan s1 15.png" alt="plan1">
+
+		  </div>
+
+	    </div>
+	  </div>
+	  <br/>
+	  <br/>
+	   </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /#page-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
