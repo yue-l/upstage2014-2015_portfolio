@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"/>
   </head>
   <body>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
     <div id="wrapper">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
@@ -50,7 +52,7 @@
             <li class="dropdown messages-dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i> Contact Team <b class="caret"></b></a>
               <ul class="dropdown-menu">
-				<li class="dropdown-header">AUT UpStage Team 2015</li>
+		<li class="dropdown-header">AUT UpStage Team 2015</li>
                 <li class="message-preview">
                   <a href="mailto:pdy2956@aut.ac.nz">
                     <span class="avatar"><img src="assets/img/Charlotte.jpg"></span>
@@ -77,7 +79,7 @@
               </ul>
             </li>
           </ul>
-        </div><!-- /.navbar-collapse -->
+        </div>
       </nav>
       <div id="page-wrapper">
         <div class="row">
@@ -90,7 +92,7 @@
             </ol>
             <h2 id="Proof of Concept">Proof of Concept</h2>
             <p>As part of research to provide a complete redesign of UpStage, we used Design Science to help us come up with a way to prove that our research would work in practice. This was to create a small prototype that showed how a specific technology could replace the existing one. The three focus areas were Text-to-speech, Replacement for flash and Video streaming.</p>
-			<h2 id="Flash Replacement">Flash Replacement</h2>
+	    <h2 id="Flash Replacement">Flash Replacement</h2>
             <div class="panel panel-success">
               <div class="panel-heading">
                 <h3 class="panel-title">Bootstrap3, NodeJS, Websockets, JQuery</h3>
@@ -99,10 +101,21 @@
                 <p>Features live chatting function, concurrent drawing, modal development in order to implement a single-paged wen application.</p>
                 <strong>Prototype is accessible via AUT network</strong>
                 <br/>
-                <a href="http://upstage.aut.ac.nz:33000" target="_blank" role="button" class="btn btn-success">Click Me Access Prototype</a>
-                <a href="https://github.com/yue-l/ustage" target="_blank" role="button" class="btn btn-success">Click Me Access Source Code</a>
-                <a href="Documents/Deliverables/UpStage Front-end Analysis.docx" role="button" class="btn btn-success">UpStage Front-end Analysis</a>
-                <a href="Documents/Deliverables/pocs/front-end-poc/yue/Flash replacement proof of concept document.docx" target="_blank" role="button" class="btn btn-success">Bootstrap, Embeded JavaScript Template, JQuery, Socket.IO NodeJS Evaluation</a>
+                <a href="http://upstage.aut.ac.nz:33000"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">Click Me Access Prototype</a>
+                <a href="https://github.com/yue-l/ustage"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">Click Me Access Source Code</a>
+                <a href="Documents/Deliverables/UpStage Front-end Analysis.docx"
+		   role="button"
+		   class="btn btn-success">UpStage Front-end Analysis</a>
+                <a href="Documents/Deliverables/pocs/front-end-poc/yue/Flash replacement proof of concept document.docx"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">Bootstrap, Embeded JavaScript Template, JQuery, Socket.IO NodeJS Evaluation</a>
               </div>
             </div>
             <div class="panel panel-success">
@@ -112,37 +125,53 @@
               <div class="panel-body">
                 <p>Move image over HTML5 Canvas proof of concept.</p>
                 <br/>
-                <a href="Documents/Deliverables/pocs/front-end-poc/gaoxin/gaoxin_avatar_move.zip" target="_blank" role="button" class="btn btn-success">Click Me Access Source Code</a>
-                <a href="Documents/Deliverables/pocs/front-end-poc/front-end-poc/gaoxin/Avatar_Move-Evaluation.doc" target="_blank" role="button" class="btn btn-success">HTML5 Image Move Evaluation</a>
+                <a href="Documents/Deliverables/pocs/front-end-poc/gaoxin/gaoxin_avatar_move.zip"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">Click Me Access Source Code</a>
+                <a href="Documents/Deliverables/pocs/front-end-poc/front-end-poc/gaoxin/Avatar_Move-Evaluation.doc"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">HTML5 Image Move Evaluation</a>
               </div>
             </div>
-			<h2 id="text to speech">Text-to-Speech Replacement</h2>
-			<div class="panel panel-success">
-			  <div class="panel-heading">
-				<h3 class="panel-title">HTML5 Compatible Flowplayer</h3>
-			  </div>
-			  <div class="panel-body">
-				<p>A HTML5 standard Flowplayer to support text synthetiser.</p>
-				<a href="Documents/Deliverables/pocs/tts-poc/TextToSpeech.zip" target="_blank" role="button" class="btn btn-success">Click Me Access Source Code</a>
-				<a href="Documents/Deliverables/pocs/tts-poc/Text to Speech Evaluation.docx" target="_blank" role="button" class="btn btn-success">Text-to-Speech Evaluation</a>
-			  </div>
-			</div>
-			<h2 id="Video Replacement">Video Replacement</h2>
-			<div class="panel panel-success">
-			  <div class="panel-heading">
-				<h3 class="panel-title">HTML5 Video</h3>
-			  </div>
-			  <div class="panel-body">
-				<p>HTML5 supported Video Streaming technique.</p>
-				<a href="Documents/Deliverables/pocs/video-poc/Gaoxin_video_stream_prototype.zip" target="_blank" role="button" class="btn btn-success">Click Me Access Source code</a>
-				<a href="Documents/Deliverables/pocs/video-poc/Video_Stream EvaluationV2.doc" target="_blank" role="button" class="btn btn-success">HTML5 Video Evaluation</a>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </div><!-- /.row -->
-	</div><!-- /#page-wrapper -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.js"></script>
+	    <h2 id="text to speech">Text-to-Speech Replacement</h2>
+	    <div class="panel panel-success">
+	      <div class="panel-heading">
+		<h3 class="panel-title">HTML5 Compatible Flowplayer</h3>
+	      </div>
+	      <div class="panel-body">
+		<p>A HTML5 standard Flowplayer to support text synthetiser.</p>
+		<a href="Documents/Deliverables/pocs/tts-poc/TextToSpeech.zip"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">Click Me Access Source Code</a>
+		<a href="Documents/Deliverables/pocs/tts-poc/Text to Speech Evaluation.docx"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">Text-to-Speech Evaluation</a>
+	      </div>
+	    </div>
+	    <h2 id="Video Replacement">Video Replacement</h2>
+	    <div class="panel panel-success">
+	      <div class="panel-heading">
+		<h3 class="panel-title">HTML5 Video</h3>
+	      </div>
+	      <div class="panel-body">
+		<p>HTML5 supported Video Streaming technique.</p>
+		<a href="Documents/Deliverables/pocs/video-poc/Gaoxin_video_stream_prototype.zip"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">Click Me Access Source code</a>
+		<a href="Documents/Deliverables/pocs/video-poc/Video_Stream EvaluationV2.doc"
+		   target="_blank"
+		   role="button"
+		   class="btn btn-success">HTML5 Video Evaluation</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
   </body>
 </html>
